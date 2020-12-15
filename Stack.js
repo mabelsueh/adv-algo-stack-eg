@@ -1,6 +1,6 @@
 class Stack {
   items = [];
-  
+
   // to put an item at the top of the stack
   // does not get inserted into the bottom  
   push(data) {
@@ -23,6 +23,22 @@ class Stack {
   getItems() {
     return [...this.items];
   }
+
+  // return true if stack is empty
+  isEmpty() 
+  {  
+  return this.items.length == 0; 
+  } 
+
+
+  // returns string with all the element of stack concatenated
+  printStack() 
+  { 
+     var str = ""; 
+     for (var i = 0; i < this.items.length; i++) 
+         str += this.items[i] + " "; 
+     return str; 
+  } 
 
 }
 
