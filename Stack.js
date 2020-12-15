@@ -40,6 +40,10 @@ class Stack {
      return str; 
   } 
 
+//   returns length of the stack (pls try out)
+  length() {
+     return this.top;
+  }
 }
 
 module.exports = Stack;
