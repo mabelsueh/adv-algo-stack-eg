@@ -1,5 +1,6 @@
 class Stack {
   items = [];
+  
   // to put an item at the top of the stack
   // does not get inserted into the bottom  
   push(data) {
